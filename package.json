@@ -1,0 +1,28 @@
+{
+  "name": "app-tracking",
+  "version": "1.0.0",
+  "description": "Tracks Visible apps on your computer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raybittechnologies/tracking.git"
+  },
+  "author": "Raybit Technologies",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raybittechnologies/tracking/issues"
+  },
+  "homepage": "https://github.com/raybittechnologies/tracking#readme",
+  "dependencies": {
+    "active-win": "^8.2.1",
+    "chrome-remote-interface": "^0.33.0",
+    "firefox-profile": "^4.5.0",
+    "puppeteer": "^22.6.1",
+    "puppeteer-core": "^22.6.1",
+    "selenium-webdriver": "^4.18.1"
+  },
+  "devDependencies": {}
+}
